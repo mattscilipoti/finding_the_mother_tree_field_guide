@@ -1,0 +1,59 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='1600' height='1100' viewBox='0 0 1600 1100'>
+  <!-- Herbal-plate style Douglas-fir: flat washes, ink outlines, numbered callouts -->
+  <rect width='100%' height='100%' fill='#fbf6ee' />
+  <!-- plate border -->
+  <rect x='40' y='40' width='1520' height='1020' fill='none' stroke='#1a1a1a' stroke-width='4' />
+
+  <!-- watercolor ground and sky panels -->
+  <rect x='120' y='140' width='620' height='820' fill='#eef7f0' />
+  <rect x='760' y='140' width='620' height='420' fill='#f7efe6' />
+
+  <!-- simplified flat-tree shape (herbal aesthetic) -->
+  <g transform='translate(160,160) scale(0.9)' stroke='#000' stroke-width='3' fill='none' stroke-linejoin='round'>
+    <path d='M330 820 L240 620 C210 560 180 520 150 480 C120 440 100 380 100 320 C100 260 140 220 220 210 C160 170 120 130 100 90' />
+    <path d='M330 820 L420 620 C450 560 480 520 510 480 C540 440 560 380 560 320 C560 260 520 220 440 210 C500 170 540 130 560 90' />
+    <path d='M330 820 L330 160' stroke-width='10' />
+  </g>
+
+  <!-- detail inset: cone and bract diagram (herbal label) -->
+  <g transform='translate(1100,300)'>
+    <rect x='-18' y='-18' width='300' height='220' fill='#fff7ea' stroke='#000' stroke-width='2' />
+    <ellipse cx='120' cy='60' rx='40' ry='18' fill='#f4d9b8' stroke='#5b3a21' stroke-width='1.6' />
+    <path d='M85 50 C100 10 140 10 155 50' stroke='#5b3a21' stroke-width='1.6' fill='none' />
+    <text x='10' y='170' font-family='serif' font-size='20' fill='#000'>Cone detail (bracts visible)</text>
+    <circle cx='260' cy='20' r='14' fill='#fff' stroke='#000' />
+    <text x='252' y='26' font-family='serif' font-size='14'>1</text>
+  </g>
+
+  <!-- callouts with leader lines -->
+  <g font-family='serif' font-size='22' fill='#000'>
+    <line x1='430' y1='460' x2='700' y2='260' stroke='#000' stroke-width='1.5' />
+    <circle cx='720' cy='240' r='16' fill='#fff' stroke='#000' />
+    <text x='714' y='246'>2</text>
+    <text x='760' y='220' font-size='18'>Needles, 2-ranked</text>
+
+    <line x1='350' y1='820' x2='140' y2='980' stroke='#000' stroke-width='1.5' />
+    <circle cx='120' cy='980' r='16' fill='#fff' stroke='#000' />
+    <text x='114' y='986'>3</text>
+    <text x='150' y='980' font-size='18'>Trunk bark (furrowed with age)</text>
+  </g>
+
+  <!-- hand-lettered title block -->
+  <g font-family='serif' fill='#000'>
+    <text x='120' y='110' font-size='34' font-weight='700'>Pseudotsuga menziesii</text>
+    <text x='120' y='144' font-size='20' fill='#333'>Douglas‑fir</text>
+  </g>
+
+  <!-- plate annotation panel (right column) -->
+  <g font-family='serif' fill='#000' transform='translate(760,580)'>
+    <text x='0' y='0' font-size='20' font-weight='700'>Habitat &amp; notes</text>
+    <text x='0' y='36' font-size='16'>Ectomycorrhizal; dominant in mixed-conifer forests.</text>
+    <text x='0' y='66' font-size='16'>Needles single, flattened; cones pendulous with 3‑lobed bracts.</text>
+  </g>
+
+  <!-- small plate footer label and scale -->
+  <g font-family='serif' fill='#000'>
+    <rect x='120' y='1000' width='420' height='6' fill='#000' />
+    <text x='120' y='1036' font-size='18'>scale: 1 m (schematic)</text>
+  </g>
+</svg>

@@ -1,0 +1,44 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='1600' height='1100' viewBox='0 0 1600 1100'>
+  <rect width='100%' height='100%' fill='#fbf6ee' />
+  <rect x='40' y='40' width='1520' height='1020' fill='none' stroke='#1a1a1a' stroke-width='4' />
+
+  <!-- left panel tree plate -->
+  <rect x='120' y='140' width='620' height='820' fill='#f7f2ea' />
+
+  <!-- stylized hemlock form -->
+  <g transform='translate(160,160) scale(0.9)' stroke='#000' stroke-width='3' fill='none' stroke-linejoin='round'>
+    <path d='M330 820 L240 620 C210 580 180 540 150 500 C120 460 100 420 100 360 C100 300 140 260 220 250 C160 220 120 190 100 150' />
+    <path d='M330 820 L420 620 C450 580 480 540 510 500 C540 460 560 420 560 360 C560 300 520 260 440 250 C500 220 540 190 560 150' />
+    <path d='M600 120 C610 100 620 90 610 70' stroke-width='4' />
+  </g>
+
+  <!-- inset: needle detail -->
+  <g transform='translate(1100,300)'>
+    <rect x='-18' y='-18' width='300' height='180' fill='#fff7ea' stroke='#000' stroke-width='2' />
+    <path d='M40 80 C90 60 150 60 200 80' stroke='#2d5a39' stroke-width='6' stroke-linecap='round' fill='none' />
+    <text x='10' y='140' font-family='serif' font-size='20'>Needle detail (short, flattened)</text>
+    <circle cx='260' cy='20' r='14' fill='#fff' stroke='#000' />
+    <text x='252' y='26' font-family='serif' font-size='14'>1</text>
+  </g>
+
+  <!-- annotations and callouts -->
+  <g font-family='serif' font-size='22' fill='#000'>
+    <line x1='420' y1='500' x2='720' y2='300' stroke='#000' stroke-width='1.5' />
+    <circle cx='740' cy='280' r='14' fill='#fff' stroke='#000' />
+    <text x='734' y='286'>2</text>
+    <text x='760' y='260' font-size='18'>Drooping leader (characteristic)</text>
+  </g>
+
+  <!-- title block -->
+  <g font-family='serif' fill='#000'>
+    <text x='120' y='110' font-size='34' font-weight='700'>Tsuga heterophylla</text>
+    <text x='120' y='144' font-size='20' fill='#333'>Western hemlock</text>
+  </g>
+
+  <!-- right column notes -->
+  <g transform='translate(760,580)' font-family='serif' fill='#000'>
+    <text x='0' y='0' font-size='20' font-weight='700'>Habitat &amp; notes</text>
+    <text x='0' y='36' font-size='16'>Prefers shady, moist sites; ectomycorrhizal associations common.</text>
+    <text x='0' y='66' font-size='16'>Short, soft needles on flattened twigs; small pendant cones.</text>
+  </g>
+</svg>

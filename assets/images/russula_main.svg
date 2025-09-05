@@ -1,0 +1,46 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='800' height='700' viewBox='0 0 800 700'>
+  <rect width='100%' height='100%' fill='#fbf6ee' />
+  <rect x='30' y='30' width='740' height='640' fill='none' stroke='#1a1a1a' stroke-width='3' />
+
+  <!-- left plate: mushroom figure -->
+  <rect x='60' y='80' width='420' height='520' fill='#fff8f0' />
+
+  <!-- watercolor cap -->
+  <g transform='translate(130,120)' filter=''>
+    <ellipse cx='210' cy='120' rx='150' ry='70' fill='#ffb3b3' />
+    <ellipse cx='210' cy='140' rx='120' ry='55' fill='#ffc9c9' opacity='0.7' />
+  </g>
+
+  <!-- gill lines -->
+  <g transform='translate(130,120)' stroke='#000' stroke-width='1.4'>
+    <path d='M210 120 L210 300' />
+    <path d='M230 120 L230 290' />
+    <path d='M250 120 L250 280' />
+    <path d='M190 120 L190 290' />
+    <path d='M170 120 L170 280' />
+  </g>
+
+  <!-- stipe -->
+  <rect x='310' y='300' width='60' height='220' fill='#f7f0e8' stroke='#000' stroke-width='1.6' />
+
+  <!-- inset spore print box -->
+  <g transform='translate(520,120)'>
+    <rect x='-8' y='-8' width='220' height='220' fill='#fff7ea' stroke='#000' stroke-width='2' />
+    <ellipse cx='100' cy='100' rx='70' ry='70' fill='#f5f5ee' stroke='#dcd8cf' stroke-width='1' />
+    <text x='10' y='200' font-family='serif' font-size='16'>spore print: white to cream</text>
+    <circle cx='190' cy='20' r='14' fill='#fff' stroke='#000' />
+    <text x='184' y='26' font-family='serif' font-size='14'>1</text>
+  </g>
+
+  <!-- title and labels -->
+  <g font-family='serif' fill='#000'>
+    <text x='60' y='110' font-size='34' font-weight='700'>Russula spp.</text>
+    <text x='60' y='144' font-size='20' fill='#333'>Representative mycorrhizal mushroom</text>
+  </g>
+
+  <g transform='translate(520,360)' font-family='serif' fill='#000'>
+    <text x='0' y='0' font-size='18' font-weight='700'>Notes</text>
+    <text x='0' y='28' font-size='14'>Ectomycorrhizal; often associated with conifers and broadleaf trees.</text>
+    <text x='0' y='52' font-size='14'>Cap brittle; gills white to cream; spore print pale.</text>
+  </g>
+</svg>
